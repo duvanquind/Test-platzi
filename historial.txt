@@ -3,6 +3,7 @@ Hola esta es una prueba de lo que estoy haciendo
 
 ESta es una prueba para el merge
 
-Estoy estudiando
-
+Estoy estudiando, y cree una rama cabecera
+ 
+Y voy a ensayar, vamos haber
 
