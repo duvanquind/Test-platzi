@@ -11,3 +11,16 @@ jobs:
         run: echo "Este es el paso 1"
       - name: Paso 2
         run: echo "Este es el paso 2"
+        
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: main
+
+      - name: Checkout tools repo
+        uses: actions/checkout@v3
+        with:
+          repository: duvanquind/pipeline-test
+          path: my-tools
+      - name: listar
+        run: ls
