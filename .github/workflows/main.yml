@@ -16,4 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: imprimiendo...
-        run: echo Hello World!!!
+        run: |
+          echo Hello World!!!
+          tree
