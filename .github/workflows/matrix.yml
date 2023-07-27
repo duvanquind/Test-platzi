@@ -1,6 +1,6 @@
 name: matrix
 on:
-  push:
+  workflow_call:
 jobs:
   example_matrix:
     strategy:
