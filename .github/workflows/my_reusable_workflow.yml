@@ -23,4 +23,5 @@ jobs:
           repository: duvanquind/Calculator-java
       - name: listar
         run: |
+          cd .
           tree
