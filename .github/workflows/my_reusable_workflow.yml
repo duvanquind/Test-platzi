@@ -23,4 +23,6 @@ jobs:
           repository: duvanquind/pipeline-test
           path: my-tools
       - name: listar
-        run: ls -al
+        run: |
+          cd main
+          tree
