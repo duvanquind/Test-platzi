@@ -7,4 +7,4 @@ jobs:
     
     steps:
       - name: imprimiendo saludo!!
-        run: echo Hola que se duce pues!!!!
+        run: echo Hola que se dice pues!!!!
