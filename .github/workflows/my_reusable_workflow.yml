@@ -30,4 +30,5 @@ jobs:
   reutilizar:
     uses: ./.github/workflows/workflow.yml
   matrix:
+    needs: [reutilizar]
     uses: ./.github/workflows/matrix.yml
