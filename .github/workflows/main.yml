@@ -19,4 +19,4 @@ jobs:
       - name: imprimiendo...
         run: |
           echo Hello World!!!
-          tree
+          tree -all
