@@ -13,6 +13,7 @@ jobs:
     uses: ./.github/workflows/my_reusable_workflow.yml
   
   job-print:
+    needs:  [Job_main]
     runs-on: ubuntu-latest
     steps:
       - name: imprimiendo...
