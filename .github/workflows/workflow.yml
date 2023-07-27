@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: imprimiendo saludo!!
         run: echo Hola que se dice pues!!!!
+  anidado:
+    uses: ./.github/workflows/anidar.yml
