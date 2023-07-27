@@ -1,0 +1,10 @@
+name: anidando
+
+on:
+  workflow_call:
+jobs:
+  anidando:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prueba anidad
+        run: echo Esta es una prueba anidada!!
