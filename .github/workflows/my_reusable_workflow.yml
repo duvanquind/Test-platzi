@@ -25,3 +25,5 @@ jobs:
         run: |
           cd .
           tree
+          echo $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE
