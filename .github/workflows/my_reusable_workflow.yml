@@ -20,9 +20,7 @@ jobs:
       - name: Checkout tools repo
         uses: actions/checkout@v3
         with:
-          repository: duvanquind/pipeline-test
-          path: my-tools
+          repository: duvanquind/Calculator-java
       - name: listar
         run: |
-          cd main
           tree
