@@ -27,3 +27,5 @@ jobs:
           tree
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
+  reutilizar:
+    uses: ./.github/workflows/workflow.yml
