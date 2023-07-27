@@ -1,0 +1,10 @@
+name: reutilizar
+on:
+  workflow_call:
+jobs:
+  reutilizar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: imprimiendo saludo!!
+        run: echo Hola que se duce pues!!!!
