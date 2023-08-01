@@ -1,2 +1,4 @@
 # Test-platzi
-ESta es uan  prueba del curso de git y github en platzi
+ESta es una  prueba del curso de git y github en platzi
+
+
